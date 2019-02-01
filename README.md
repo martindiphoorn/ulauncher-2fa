@@ -18,6 +18,12 @@ gitlab=abcd efgh 1234 fake fake 4321
 gitlab=1236 1248 test fail
 ```
 
+## Requirements
+For this extension the onetimepass python library is needed.
+```
+pip install onetimepass
+```
+
 ## Disclaimer
 This software is delivered free of charge and without warranty.
 Make sure you always make backup keys for your accounts.
