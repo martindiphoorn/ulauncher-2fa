@@ -17,6 +17,7 @@ Example:
 gitlab=abcd efgh 1234 fake fake 4321
 gitlab=1236 1248 test fail
 ```
+This has been tested with gitlab and github.
 
 ## Requirements
 For this extension the onetimepass python library is needed.
