@@ -1,0 +1,26 @@
+{
+  "manifest_version": "2",
+  "api_version": "1",
+  "name": "2FA Extension",
+  "description": "2FA Authentication",
+  "developer_name": "Martin Diphoorn",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "tfa_kw",
+      "type": "keyword",
+      "name": "generate pin",
+      "description": "keyword to activate this plugin",
+      "default_value": "2fa"
+    },
+    {
+      "id": "tfa_providers",
+      "type": "text",
+      "name": "providers",
+      "description": "every line is a key value pair example goolge=123123fAkE<enter>google2=321321FaKe"
+    }
+  ]
+}
