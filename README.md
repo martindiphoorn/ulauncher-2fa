@@ -5,11 +5,11 @@ Generate pin codes for two factor authentication.
 ## Settings
 There are only a few settings available
 
-*generate pin keyword*
+*generate pin keyword*   
 default: 2fa   
 This is the keyword to activate this ulauncher. If you type a argument after the keyword it will be used to filter the providers.
 
-*providers*
+*providers*   
 default:   
 This field contains one entry per line. Each line will contain a name and a secret seperated by a equals sign.
 Example:
