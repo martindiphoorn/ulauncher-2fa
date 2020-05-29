@@ -22,7 +22,7 @@ This has been tested with gitlab and github.
 ## Requirements
 For this extension the onetimepass python library is needed.
 ```
-pip install onetimepass
+pip3 install onetimepass
 ```
 
 ## Disclaimer

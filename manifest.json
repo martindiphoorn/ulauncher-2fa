@@ -19,7 +19,7 @@
       "id": "tfa_providers",
       "type": "text",
       "name": "providers",
-      "description": "Every line is a key value pair: <br/>goolge=123123fAkE<br/>google2=321321FaKe<br/><br/><b>Make a backup of the above values!"
+      "description": "Every line is a key value pair: <br/>google=123123fAkE<br/>google2=321321FaKe<br/><br/><b>Make a backup of the above values!"
     }
   ]
 }
