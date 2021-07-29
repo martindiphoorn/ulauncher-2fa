@@ -22,14 +22,14 @@ class KeywordQueryEventListener(EventListener):
 
         data = event.get_argument()
 
-        providers = extension.preferences.get('tfa_providers').splitlines()
+        providers = extension.preferences.get('tfa_providers').split(";")
 
         for provider in providers:
             if data:
                 if data not in provider:
                     continue
 
-            secrets = provider.split("=")
+            secrets = provider.strip().split("=")
             name = secrets[0]
             token = str(otp.get_totp(secrets[1])).zfill(6)
 
