@@ -11,11 +11,10 @@ This is the keyword to activate this ulauncher. If you type a argument after the
 
 *providers*   
 default:   
-This field contains one entry per line. Each line will contain a name and a secret seperated by a equals sign.
+This field contains multi entry seperated by semicolon. Each entry will contain a name and a secret seperated by a equals sign.
 Example:
 ```
-gitlab=abcd efgh 1234 fake fake 4321
-gitlab=1236 1248 test fail
+gitlab=abcd efgh 1234 fake fake 4321; gitlab=1236 1248 test fail
 ```
 This has been tested with gitlab and github.
 
