@@ -21,8 +21,8 @@ class KeywordQueryEventListener(EventListener):
         items = []
 
         data = event.get_argument()
-
-        providers = extension.preferences.get('tfa_providers').splitlines()
+        #### Each token seprate with a space
+        providers = extension.preferences.get('tfa_providers').split(" ")
 
         for provider in providers:
             if data:
